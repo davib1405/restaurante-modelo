@@ -1,0 +1,318 @@
+body{
+    background-color: #FFF0E4;
+  
+    font-family: 'Galada', cursive;
+    
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.meu-header {
+    background-image: url('img/Foto\ 1\ header.jpeg');
+    background-size: cover; 
+    color: #E5CBB6;
+    text-align: center; 
+    padding: 100px; }
+
+
+.titulo-header {
+    font-size: 7em; 
+    margin-bottom: -20px; 
+    text-shadow: 5px 5px 5px #735944; 
+}
+
+.subtitulo-header{
+    font-size: 3em;
+    margin-bottom: 40px; 
+    text-shadow: 5px 5px 5px #735944;
+}
+
+
+.menu-header {
+    margin-top: 10px;
+    
+}
+
+
+.link-header {
+    background-color: #784C34;
+    color: #E5CBB6; 
+    text-decoration: none; 
+    margin: 14px 1px; 
+    font-size:xx-large; 
+    margin-left: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+        
+}
+
+.link-header2 {
+    background-color: #784C34;
+    color: #E5CBB6; 
+    text-decoration: none; 
+    margin: 10px; 
+    font-size:xx-large; 
+    margin-left: 90px;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+    
+.conteudo-section {
+    padding: 100px 50px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Zilla Slab', serif;
+    
+}
+
+#mais{
+    text-align: center;
+    padding: 10px;
+    font-size: 65px;
+    color: floralwhite;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color:#784C34;
+}
+
+.titulo-section {
+    font-size: 70px; 
+    margin-bottom: 20px; 
+    
+}
+
+.texto-sobre{
+    font-size: 1.5em;
+    color: #784C34;
+    font-family: 'Zilla Slab', serif;
+}
+
+.sobre-section{
+    color: #784C34;
+    font-size: 70px;
+    font-family: 'Zilla Slab', serif;
+    
+    
+}
+
+.localizacao{
+    color: #735944;
+    font-size: 35px;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.subtitulo-cardapio{
+    color: floralwhite;
+    font-size: 70px;
+    text-shadow: 5px 5px 5px #735944; 
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+
+.subtitulo-cardapio2{
+    color: floralwhite;
+    font-size: 80px;
+    text-shadow: 5px 5px 5px #735944; 
+    text-align: center;
+    padding: 40px 50px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.prato-section {
+    padding: 20px 50px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.prato-section img {
+    width:35%;
+    height: 35%;
+}
+
+.text-container {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.titulo-prato {
+    font-size: 80px;
+    margin-bottom: 10px;
+    color: #784C34;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.descricao-prato {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #784C34;
+    font-family: 'Zilla Slab', serif;
+}
+
+.preco-prato {
+    font-size: 40px;
+    color: #784C34;
+    font-weight: bold;
+}
+
+.sobre-mais {
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+    color: floralwhite;
+    text-shadow: 5px 5px 5px #735944;
+
+    
+}
+
+.mais-itens {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-nosso-espaco-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-evenly;
+
+    
+}
+
+.container-kids{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 50px;
+}
+
+.prato3-section{
+    width: 70%;
+    height: 70%;
+}
+
+.espaco{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 50px;
+    
+}
+
+.prato6-section{
+    width: 70%;
+    height: 70%;
+}
+
+.prato5-section{
+    width: 50%;
+    height: 10%;
+}
+
+.prato3-section{
+    width: 50%;
+    height: 10%;
+}
+
+.container{
+    padding: 50px;
+}
+
+.geral{
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: #784C34;
+    font-family: 'Zilla Slab', serif;
+}
+
+.geral-2{
+    text-align: center;
+    font-size: 20px;
+    color: #784C34;
+    font-family: 'Zilla Slab', serif;
+   
+}
+
+.geral-3{
+    text-align: center;
+    font-size: 20px;
+    color: #784C34;
+   
+}
+
+.PLACA{
+    color: #784C34;
+    font-size: 70px;
+    padding: 40px 50px;
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+}
+
+
+.ICONES{
+    width:200px;
+    margin-left: 30%;
+    margin-right: 0%;
+    color: #784C34;
+   display: flex; 
+}
+
+.ICONES2{
+    width: 130px;
+    margin-left: 35%;
+    margin-right: 0%;
+    color: #784C34;
+   display: flex;
+   
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    
+}
+.titulo-contato{
+    text-align: center;
+    font-size: 40px;
+    color: #784C34;
+    font-family: 'Zilla Slab', serif;
+}
+.ICONES3{ 
+    width:70px;
+    margin-right: 0%;
+    color: #784C34;
+ 
+   
+}
+.marrom{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color:#784C34;
+    font-family: 'Zilla Slab', serif;
+}
+
+.div-contatos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contato-bloco {
+    text-align: center;
+    padding: 30px;
+}
