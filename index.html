@@ -1,363 +1,127 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <title>Restaurante trem bão</title>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Trem Bão</title>
 </head>
 
 <body>
-    <header class="meu-header">
-        <div class="container-titulo">
-            <div>
-                <h1 class="titulo-header">TREM BÃO</h1>
-                <h2 class="subtitulo-header">Restaurante</h2>
-            </div>
-            <div>
-                <nav class="menu-header">
-                    <a href="#sobre" class="link-header">SOBRE</a>
-                    <a href="#cardapio" class="link-header">CARDÁPIO</a>
-                    <a href="#espaco" class="link-header">NOSSO ESPAÇO</a>
-                    <a href="#contato" class="link-header">CONTATO</a>
-                </nav>
-            </div>
-        </div>
-    </header>
 
-    <section>
-        <div class="conteudo-section">
-            <div class="titulo-section">
-                <h2 id="sobre" class="sobre-section">SOBRE:</h2>
-            </div>
-            <div class="texto-sobre">
-                <p class="texto">A culinária mineira é uma das expressões mais ricas e tradicionais da gastronomia
-                    <p>brasileira, com raízes profundas na história e na cultura do estado de Minas Gerais. </p>
-                        <p>Caracteriza-se por pratos substanciais, saborosos e marcados pelo uso abundante de ingredientes como </p>
-                    <p> feijão, arroz,carne de porco, frango, couve, queijo e mandioca.</p>
-            </div>
-        </div>
+<header class="header">
+<div class="logo">
+<img src="img/Foto 1 header.jpeg" class="logo-img">
+<span>TREM BÃO</span>
+</div>
 
-        <div class="conteudo-section">
-            <div class="titulo-section">
-                <h2 id="cardapio" class="sobre-section">CONHEÇA O NOSSO CARDÁPIO:</h2>
-                <h3 class="subtitulo-cardapio">PRATOS PRINCIPAIS</h3>
-            </div>
-        </div>
+<nav>
+<a href="index.html">Início</a>
+<a href="cardapio.html">Cardápio</a>
+<a href="espaco.html">Nosso Espaço</a>
+<a href="contato.html">Contato</a>
+</nav>
+</header>
 
+<!-- HERO PRINCIPAL -->
 
-        <div class="prato-section">
-            <img src="img/Feijao tropeiro.jpg" alt="Feijao Tropeiro">
-            <div class="text-container">
-                <div class="titulo-prato">
-                    <h3 class="titulo-prato1">FEIJÃO</h3>
-                    <h3 class="titulo-prato2">TROPEIRO</h3>
-                </div>
-                <div class="descricao-prato">
-                    <p class="texto-prato">
-                        Prato típico de Minas Gerais, consiste em feijão mexido com farinhade mandioca, bacon, linguiça,
-                        ovos e temperos.
-                    </p>
-                    
-                </div>
-            </div>
-        </div>
+<section class="hero-home">
+<div class="overlay"></div>
+<div class="hero-conteudo">
+<h1>TREM BÃO</h1>
+<p>Culinária Mineira Tradicional</p>
 
-        <div class="prato-section">
-            <div class="text-container">
-                <div class="titulo-prato">
-                    <h3 class="titulo-prato1">VACA</h3>
-                    <h3 class="titulo-prato2">ATOLADA</h3>
-                </div>
-                <div class="descricao-prato">
-                    <p class="texto-prato">
-                        Prato feito com costela bovina cozida com mandioca, temperado com alho, cebola e outros condimentos.
-                    </p>
-                  
-                </div>
-            </div>
-            <img src="img/vaca atolada.jpg" alt="vaca atolada">
-        </div>
+</div>
+</section>
 
-        <div class="prato-section">
-            <img src="img/frango c quiabo.jpg" alt="Frango com quiabo">
-            <div class="text-container">
-                <div class="titulo-prato">
-                    <h3 class="titulo-prato1">FRANGO</h3>
-                    <h3 class="titulo-prato2">C/ QUIABO</h3>
-                </div>
-                <div class="descricao-prato">
-                    <p class="texto-prato">
-                        Combinação de frango cozido com quiabo, tomate, cebola, alho e temperos diversos.
-                    </p>
-                    
-                </div>
-            </div>
-        </div>
+<!-- SOBRE BREVE -->
 
-        <div class="prato-section">
-            <div class="text-container">
-                <div class="titulo-prato">
-                    <h3 class="titulo-prato1">LEITÃO</h3>
-                    <h3 class="titulo-prato2">À PURURUCA</h3>
-                </div>
-                <div class="descricao-prato">
-                    <p class="texto-prato">
-                        Leitão assado com pele crocante (pururuca), temperado com ervas e especiarias.
-                    </p>
-                   
-                </div>
-            </div>
-            <img src="img/leitao a pururuca.jpg" alt="Leitão à pururuca">
-        </div>
+<section class="home-sobre fade-in">
+<h2>Uma Experiência Mineira Autêntica</h2>
+<p>
+Sabores tradicionais, ambiente acolhedor e a verdadeira essência da cozinha mineira.
+Cada prato carrega história, tradição e aquele tempero caseiro que abraça.
+</p>
+</section>
 
-        <div class="prato-section">
-            <img src="img/tutu a mineira.jpg" alt="Tutu à mineira">
-            <div class="text-container">
-                <div class="titulo-prato">
-                    <h3 class="titulo-prato1">TUTU</h3>
-                    <h3 class="titulo-prato2">À MINEIRA</h3>
-                </div>
-                <div class="descricao-prato">
-                    <p class="texto-prato">
-                        Tutu de feijão com farinha de mandioca, bacon, linguiça, alho e cebola.
-                    </p>
-                  
-                </div>
-            </div>
-        </div>
+<!-- SEÇÕES INTERATIVAS -->
 
-        <div class="prato-section">
-            <div class="text-container">
-                <div class="titulo-prato">
-                    <h3 class="titulo-prato1">BAMBÁ</h3>
-                    <h3 class="titulo-prato2">DE COUVE</h3>
-                </div>
-                <div class="descricao-prato">
-                    <p class="texto-prato">
-                        Prato nordestino com carne seca, feijão verde, arroz, couve e temperos regionais.
-                    </p>
-                    
-                </div>
-            </div>
-            <img src="img/bambá de couve.jpg" alt="Bambá de couve">
-        </div>
+<section class="home-links">
 
-        <div class="prato-section">
-            <img src="img/frango ao molho pardo.jpeg" alt="Frango ao molho pardo">
-            <div class="text-container">
-                <div class="titulo-prato">
-                    <h3 class="titulo-prato1">FRANGO AO</h3>
-                    <h3 class="titulo-prato2">MOLHO PARDO</h3>
-                </div>
-                <div class="descricao-prato">
-                    <p class="texto-prato">
-                        Frango cozido em molho escuro feito com sangue de galinha, vinho tinto, cebola e alho.
-                    </p>
-                
-                </div>
-            </div>
-        </div>
+<a href="cardapio.html" class="home-card fade-in">
+<img src="img/Feijao tropeiro.jpg">
+<div class="home-card-texto">
+<h3>Nosso Cardápio</h3>
+<p>Descubra nossos pratos tradicionais</p>
+</div>
+</a>
 
-        <div class="prato-section">
-            <div class="text-container">
-                <div class="titulo-prato">
-                    <h3 class="titulo-prato1">ARROZ</h3>
-                    <h3 class="titulo-prato2">C/ PEQUI</h3>
-                </div>
-                <div class="descricao-prato">
-                    <p class="texto-prato">
-                        Arroz cozido com pequi, fruto típico do cerrado brasileiro .
-                    </p>
-                    
-                </div>
-            </div>
-            <img src="img/arroz c pequi.jpg" alt="Arroz com pequi">
-        </div>
+<a href="espaco.html" class="home-card fade-in">
+<img src="img/Foto 1 header.jpeg">
+<div class="home-card-texto">
+<h3>Nosso Espaço</h3>
+<p>Conheça nosso ambiente acolhedor</p>
+</div>
+</a>
 
+<a href="contato.html" class="home-card fade-in">
+<img src="img/vaca atolada.jpg">
+<div class="home-card-texto">
+<h3>Contato</h3>
+<p>Reserve sua experiência conosco</p>
+</div>
+</a>
 
-        <div>
-            <h3 class="subtitulo-cardapio2">SOBREMESAS</h3>
-        </div>
+</section>
+<footer class="footer">
 
-        <div class="prato-section">
-            <img src="img/doce-de-leite-2.jpeg" alt="Doce de Leite">
-            <div class="text-container">
-                <div class="titulo-prato">DOCE DE</h3>
-                    <h3 class="titulo-prato2">LEITE</h3>
-                </div>
-                <div class="descricao-prato">
-                    <p class="texto-prato">
-                        Doce cremoso feito com leite e açúcar, cozido lentamente.
-                    </p>
-                    
-                </div>
-            </div>
-        </div>
+<div class="footer-content">
 
-        <div class="prato-section">
-            <div class="text-container">
-                <div class="titulo-prato">
-                    <h3 class="titulo-prato1">GOIABADA</h3>
-                    <h3 class="titulo-prato2">CASCÃO</h3>
-                </div>
-                <div class="descricao-prato">
-                    <p class="texto-prato">
-                        Sobremesa de goiabas maduras, geralmente servida em forma de compota e acompanhada de queijo.
-                    </p>
-                    
-                </div>
-            </div>
-            <img src="img/goiabada cascao.jpg" alt="Goiabada Cascão">
-        </div>
+<h2>TREM BÃO</h2>
+<p>Culinária Mineira Tradicional</p>
 
-        <div class="sobre-mais">
-            <h2 id="espaco" class="sobre-section">NOSSO ESPAÇO:</h2>
-            <div class="mais-itens">
-                <nav class="menu-nosso-espaco-header">
-                    <a href="#area" class="link-header2">ÁREA INTERNA</a>
-                    <a href="#espaco-kids" class="link-header2">ESPAÇO KIDS</a>
-                    <a href="#estacionamento" class="link-header2">ESTACIONAMENTO</a>
-                    <a href="#localização " class="link-header2">LOCALIZAÇÃO</a>
-                    <a href="#mais" class="link-header2">MAIS</a>
-                </nav>
-            </div>
-        </div>
+<div class="footer-redes">
 
-        <div class="espaco">
-            <img class="prato3-section" src="img/espaço 3.jpg" alt="Espaço 1">
-            <h3 class="geral">
-                CONTAMOS COM UM AMBIENTE QUE REFLETE A RIQUEZA CULTURAL E GASTRONÔMICA DO ESTADO DE MINAS GERAIS. AO ENTRAR NESSE ESPAÇO ACOLHEDOR, É COMUM SE DEPARAR COM UMA DECORAÇÃO QUE REMETE ÀS RAÍZES HISTÓRICAS E ARTÍSTICAS DA REGIÃO, COM ELEMENTOS QUE CELEBRAM A CULTURA LOCAL.
-            </h3>
-        </div>
+<a href="https://wa.me/5521999998888" target="_blank" class="btn-footer whatsapp">
+<img src="img/WhatsApp Image 2023-12-03 at 00.20.19.jpeg" class="icon-footer">
 
+</a>
 
-        <div class="container">
-            <h3 class="geral">AS MESAS SÃO DISPOSTAS DE MANEIRA <br> A PROMOVER A CONVIVÊNCIA E O COMPARTILHAMENTO,<br> CARACTERÍSTICAS MARCANTES DA CULINÁRIA MINEIRA.<br> O AROMA IRRESISTÍVEL DE PRATOS TRADICIONAIS <br>
-                COMO O FEIJÃO TROPEIRO E O FAMOSO <br>QUEIJO MINAS FRESCAL PERMEIA O AMBIENTE, AGUÇANDO OS SENTIDOS E DESPERTANDO A FOME DOS VISITANTES.
-            </h3>
-            <img class="prato5-section" src="img/espaço 2.jpg" alt="Espaço 2">
-        </div>
+<a href="https://instagram.com/restaurante_trembao" target="_blank" class="btn-footer instagram">
+<img src="img/MjAvMTAvMjAyMyAxMGg1Mg==6532861da0fde.jpeg" class="icon-footer">
 
+</a>
 
-        <div class="container">
-            <img class="prato3-section" src="img/espaço 1.jpg" alt="Espaço 3">
-            <h3 class="geral">CADA DETALHE É CUIDADOSAMENTE <br> PENSADO PARA PROPORCIONAR UMA JORNADA GASTRONÔMICA <br>  QUE VAI ALÉM DO PALADAR, ABRAÇANDO TAMBÉM A CULTURA E A <br> TRADIÇÃO QUE TORNAM A CULINÁRIA MINEIRA ÚNICA E INESQUECÍVEL.
-            </h3>
-        </div>
+</div>
 
-        <div class="container">
-            <h3 class="geral">A MÚSICA, MUITAS VEZES EMBALADA POR MODAS DE VIOLA E CANÇÕES FOLCLÓRICAS, <br> ADICIONA UMA TRILHA SONORA AUTÊNTICA, TRANSPORTANDO OS COMENSAIS PARA UM PEDAÇO DA RICA <br> TRADIÇÃO MUSICAL MINEIRA. A HOSPITALIDADE DOS FUNCIONÁRIOS, QUE <br> MUITAS VEZES TRATAM OS CLIENTES COMO SE FOSSEM DA FAMÍLIA,<br>  CONTRIBUI PARA CRIAR UMA EXPERIÊNCIA ACOLHEDORA E ADEQUADA.</h3>
-            <img class="prato3-section" src="img/espaço 4.jpg" alt="Espaço 4">
-        </div>
+<p class="copyright">
+© 2026 Restaurante Trem Bão - Todos os direitos reservados
+</p>
 
+</div>
 
+</footer>
+<script>
+/* animação ao rolar */
+const faders = document.querySelectorAll('.fade-in');
 
-        <div id="espaco-kids" class="sobre-section">
-            <h2 class="PLACA">ESPAÇO KIDS:</h2>
-            <div class="container-kids">
-                <img class="prato6-section" src="img/area kids.jpg" alt="Área kids">
-                <h3 class="geral">O ESPAÇO KIDS É COMO UM PEQUENO PARAÍSO PARA AS CRIANÇAS E UM DESCANSO PARA OS PAIS EM BUSCA DE MOMENTOS TRANQUILOS DURANTE UMA REFEIÇÃO. COLORIDO E REPLETO DE BRINQUEDOS, O AMBIENTE DESTINADO AOS PEQUENOS É PROJETADO PARA PROPORCIONAR DIVERSÃO E ENTRETENIMENTO ENQUANTO OS ADULTOS DESFRUTAM DE SUA REFEIÇÃO.
-                </h3>
-            </div>
-            <div class="container-kids">
-                <img class="prato6-section" src="img/espaço kids 2.jpg" alt="Área kids 2">
-                <h3 class="geral">ESSE ESPAÇO NÃO ATENDE APENAS ÀS NECESSIDADES DAS CRIANÇAS, MAS TAMBÉM PROMOVE UM AMBIENTE FAMILIAR MAIS DESCONTRAÍDO. O BARULHO ANIMADO E AS RISADAS PROVENIENTES DO ESPAÇO KIDS SE MISTURAM AO MURMÚRIO DA CONVERSA ADULTA, CRIANDO UMA SINFONIA HARMONIOSA QUE CARACTERIZA O RESTAURANTE COMO UM LOCAL ACOLHEDOR PARA TODAS AS IDADES. EM SUMA, O ESPAÇO KIDS É MAIS DO QUE UM CANTINHO DE DIVERSÃO; É UM COMPLEMENTO ENCANTADOR QUE ELEVA A EXPERIÊNCIA GASTRONÔMICA PARA TODA A FAMÍLIA.
-                </h3>
-            </div>
-        </div>
+const appearOptions = {
+threshold: 0.2
+};
 
-        <div class="container-kids">
-            <div class="conteudo-section">
-                        <div class="titulo-section">
-                            <h2 id="estacionamento" class="sobre-section"></h2>
-            <h2 class="PLACA">ESTACIONAMENTO</h2>
-            <div class="container-kids">
-                <img class="prato6-section" src="img/estacionamento.jpg" alt="Estacionamento">
-                <h3 class="geral">CONTAMOS COM UM ESTACIONAMENTO COBERTO EM CASO DE CHUVA OU MUITO SOL. PROPORCIONAMOS PRATICIDADE E CONFORTO DESDE O MOMENTO EM QUE CHEGAM AO ESTABELECIMENTO. VAGAS ADEQUADAS PARA CLIENTES COM NECESSIDADES ESPECIAIS E ESPAÇOS DE CARGA E DESCARGA SÃO CONSIDERAÇÕES IMPORTANTES PARA GARANTIR A ACESSIBILIDADE A TODOS OS VISITANTES.</h3>
-            </div>
-            <div class="localizacao">
-                <div class="conteudo-section">
-                        <div class="titulo-section">
-                            <h2 id="localização" class="sobre-section"></h2>
-                <h3> ESTAMOS LOCALIZADOS NA RUA R. PADRE SERAFIM, 30</h3>
-            </div>
-            <div>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3730.8936236795457!2d-42.881738225371315!3d-20.755105264530613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa367e93ae2b1cb%3A0xa29092b08efa0144!2sRESTAURANTE%20TREM%20B%C3%83O!5e0!3m2!1spt-BR!2sbr!4v1701575897713!5m2!1spt-BR!2sbr"
-                    width="1000" height="700" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-        </div>
+const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+entries.forEach(entry => {
+if (!entry.isIntersecting) return;
+entry.target.classList.add('aparecer');
+observer.unobserve(entry.target);
+});
+}, appearOptions);
 
-        <div>
-            <h2 id="mais">TEMOS TAMBÉM:</h2>
-            <div>
-                <div class="container">
-                    <img class="ICONES" src="img/Wi-Fi-Logo.png" alt="WIFI">
-                    <h3 class="geral-3">WIFI</h3>
-                    <div class="container">
-                        <img src="" alt="">
-                        <img class="ICONES2" src="img/4363605.png" alt="MUSICA">
-                        <h3 class="geral-3">KARAOKE</h3>
-                    </div>
-                </div>
+faders.forEach(fader => {
+appearOnScroll.observe(fader);
+});
+</script>
 
-                <div>
-                    <div>
-                        <h4 class="marrom">COMO VOCÊ PREFERE FALAR COM A GENTE?</h4>
-                    </div>
-                    <div class="div-contatos">
-                        <div class="contato-bloco
-                        <div class="conteudo-section">
-                        <div class="titulo-section">
-                            <h2 id="contato" class="sobre-section"></h2>
-                            <img class="ICONES3" src="img/email.png" alt="email">
-                            <h4 class="titulo-contato">E-MAIL:</h4>
-                            <div>
-                                <h3 class="geral-3">ana@ufrrj.br</h3>
-                                <h3 class="geral-3">david@ufrrj.br</h3>
-                                <h3 class="geral-3">lais@ufrrj.br</h3>
-                                <h3 class="geral-3">anaclara@ufrrj.br</h3>
-                            </div>
-                        </div>
-                        <div class="contato-bloco">
-                            <img class="ICONES3" src="img/image.png" alt="telefone">
-                            <h4 class="titulo-contato">TELEFONE:</h4>
-                            <div>
-                                <p class="geral-2">(21) 75268-3599</p>
-                                <p class="geral-2">(21) 18972-4633</p>
-                                <p class="geral-2">(21) 15236-4842</p>
-                                <p class="geral-2">(21) 15518-48711</p>
-                            </div>
-                        </div>
-                        <div class="contato-bloco">
-                            <img class="ICONES3" src="img/MjAvMTAvMjAyMyAxMGg1Mg==6532861da0fde.jpeg" alt="instagram">
-                            <h4 class="titulo-contato">INSTAGRAM:</h4>
-                            <div>
-                                <h3 class="geral-2">@anaguiarx</h3>
-                                <h3 class="geral-2">@davidbarros</h3>
-                                <h3 class="geral-2">@lais</h3>
-                                <h3 class="geral-2">@anaclara</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
+</body>
 </html>
